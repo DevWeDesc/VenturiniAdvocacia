@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-import { Rufina } from "next/font/google";
+import { Rufina, Roboto } from "next/font/google";
 
 const rufina = Rufina({
   weight: "700",
@@ -9,7 +8,11 @@ const rufina = Rufina({
   subsets: ["latin"],
 });
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--roboto-font",
+});
 
 export const metadata: Metadata = {
   title: "Venturini Advocacia",
@@ -23,7 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${rufina.className}`}>{children}</body>
+      <body className={`${rufina.className} ${roboto.className}`}>
+        {children}
+      </body>
     </html>
   );
 }

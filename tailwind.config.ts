@@ -9,7 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        title: "--rufina",
+        title: "--rufina-font",
+        content: "--roboto-font",
+      },
+      colors: {
+        colorDefault: "#D3B896",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

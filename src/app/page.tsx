@@ -9,8 +9,9 @@ export default function Home() {
         className="absolute w-full object-contain top-0 lg:hidden"
         src={ImageMobile}
       /> */}
-      <p className="text-white text-5xl z-10 font-title">
-        Victor Venturini Brandão
+      <p className="text-white text-5xl z-10 font-title text-center">
+        <span className="text-colorDefault">V</span>ictor{" "}
+        <span className="text-colorDefault">V</span>enturini Brandão
       </p>
     </main>
   );
