@@ -5,25 +5,26 @@ import { TfiWorld } from "react-icons/tfi";
 import { SocialMedia } from "./SocialMedia";
 
 export const SectionSocialMedia = () => {
+  const styleIcons = "text-3xl text-colorDefault lg:text-4xl";
   return (
-    <div className="relative grid grid-cols-3 justify-items-center gap-11 px-12 lg:gap-5">
+    <div className="relative grid grid-cols-3 justify-items-center gap-11 px-12 lg:gap-5 lg:px-32">
       <SocialMedia socialMediaName="Contato">
-        <BsTelephone className="text-3xl text-colorDefault" />
+        <BsTelephone className={styleIcons} />
       </SocialMedia>
       <SocialMedia socialMediaName="Contato">
-        <BsWhatsapp className="text-3xl text-colorDefault" />
+        <BsWhatsapp className={styleIcons} />
       </SocialMedia>
       <SocialMedia socialMediaName="Contato">
-        <BsInstagram className="text-3xl text-colorDefault" />
+        <BsInstagram className={styleIcons} />
       </SocialMedia>
       <SocialMedia socialMediaName="Contato">
-        <FiFacebook className="text-3xl text-colorDefault" />
+        <FiFacebook className={styleIcons} />
       </SocialMedia>
       <SocialMedia socialMediaName="Contato">
-        <FiMapPin className="text-3xl text-colorDefault" />
+        <FiMapPin className={styleIcons} />
       </SocialMedia>
       <SocialMedia socialMediaName="Contato">
-        <TfiWorld className="text-3xl text-colorDefault font-normal" />
+        <TfiWorld className={styleIcons} />
       </SocialMedia>
     </div>
   );

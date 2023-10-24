@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xxl: "1600px",
+      },
       fontFamily: {
         title: "--rufina-font",
       },
