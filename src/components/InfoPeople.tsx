@@ -1,6 +1,7 @@
 import React from "react";
 import PhotoVictor from "../../public/PhotoVictor.png";
 import Image from "next/image";
+import { SectionSocialMedia } from "./SectionSocialMedia";
 
 export const InfoPeople = () => {
   return (
@@ -15,6 +16,7 @@ export const InfoPeople = () => {
           ADVOGADO OAB/SP 435.191
         </p>
       </div>
+      <SectionSocialMedia />
     </div>
   );
 };
