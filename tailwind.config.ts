@@ -10,7 +10,6 @@ const config: Config = {
     extend: {
       fontFamily: {
         title: "--rufina-font",
-        content: "--roboto-font",
       },
       colors: {
         colorDefault: "#D3B896",
