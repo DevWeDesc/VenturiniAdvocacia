@@ -6,7 +6,7 @@ import { SocialMedia } from "./SocialMedia";
 
 export const SectionSocialMedia = () => {
   return (
-    <div className="relative grid grid-cols-3 gap-11">
+    <div className="relative grid grid-cols-3 gap-11 px-8">
       <SocialMedia socialMediaName="Contato">
         <BsTelephone className="text-3xl text-colorDefault" />
       </SocialMedia>

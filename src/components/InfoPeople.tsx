@@ -2,11 +2,12 @@ import React from "react";
 import PhotoVictor from "../../public/PhotoVictor.png";
 import Image from "next/image";
 import { SectionSocialMedia } from "./SectionSocialMedia";
+import { Footer } from "./Footer";
 
 export const InfoPeople = () => {
   return (
-    <div className="relative top-56 flex pb-12 flex-col items-center gap-10">
-      <Image alt="" className="max-w-xs" src={PhotoVictor} />
+    <div className="mt-56 flex pb-12 flex-col items-center gap-10">
+      <Image alt="" className="max-w-xs z-10" src={PhotoVictor} />
       <div className="flex flex-col items-center gap-5">
         <h1 className="text-white text-5xl z-10 font-title text-center">
           <span className="text-colorDefault">V</span>ictor{" "}
@@ -16,7 +17,6 @@ export const InfoPeople = () => {
           ADVOGADO OAB/SP 435.191
         </p>
       </div>
-      <SectionSocialMedia />
     </div>
   );
 };
