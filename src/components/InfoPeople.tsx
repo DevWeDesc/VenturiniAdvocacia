@@ -6,7 +6,7 @@ import { Footer } from "./Footer";
 
 export const InfoPeople = () => {
   return (
-    <div className="mt-[60vw] flex pb-12 flex-col items-center gap-10 lg:hidden">
+    <div className="mt-[60vw] flex pb-12 flex-col items-center gap-10 lg:mt-20">
       <Image alt="" className="px-14 z-10" src={PhotoVictor} />
       <div className="flex flex-col items-center gap-5 px-8">
         <h1 className="text-white text-5xl z-10 font-title text-center">

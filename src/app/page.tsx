@@ -7,7 +7,7 @@ import ImageDesktop from "../../public/ImageDesktop.png";
 
 export default function Home() {
   return (
-    <main>
+    <main className="lg:grid lg:grid-cols-2 h-auto">
       <Image
         alt=""
         className="absolute w-full object-contain top-0 lg:hidden"
@@ -15,13 +15,17 @@ export default function Home() {
       />
       <Image
         alt=""
-        className="hidden object-contain lg:block absolute top-0 left-0 h-screen"
+        className="hidden relative lg:block object-cover h-full  w-full"
         src={ImageDesktop}
       />
-      <InfoPeople />
-      <SectionSocialMedia />
+      <div className="h-auto  flex flex-col justify-between">
+        <div>
+          <InfoPeople />
+          <SectionSocialMedia />
+        </div>
 
-      <Footer />
+        <Footer />
+      </div>
     </main>
   );
 }
