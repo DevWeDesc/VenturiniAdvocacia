@@ -25,7 +25,7 @@ export const InfoPeople = () => {
     };
   }, []);
   return (
-    <div className="mt-[60vw] flex pb-12 flex-col items-center gap-10 lg:mt-20 xxl:mt-9">
+    <div className="mt-[60vw] flex pb-12 flex-col items-center gap-10 lg:mt-20 xxl:mt-3">
       <Image alt="" className="px-14 z-10" src={PhotoVictor} />
       <div className="flex flex-col items-center gap-5 px-8">
         <div className="flex flex-col items-center gap-5 lg:items-start lg:gap-0">
